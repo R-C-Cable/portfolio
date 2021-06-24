@@ -11,7 +11,7 @@ import {
 function Header() {
   return (
     <Navbar  id="Header" bg="dark text-dark" variant="dark" expand="lg">
-      <Navbar.Brand href="#top">React Experiment</Navbar.Brand>
+      <Navbar.Brand href="#top">Robert's Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav
