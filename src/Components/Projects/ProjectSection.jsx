@@ -4,7 +4,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 const projectsInfo = [
   {
-    src: "https://placeimg.com/300/300/tech",
+    src: "https://dummyimage.com/300X300/a6a6a6/000000&text=placeHolderImg",
     title: "Project Title",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -12,7 +12,7 @@ const projectsInfo = [
     sourceCodeHref: "#",
   },
   {
-    src: "https://placeimg.com/300/300/tech",
+    src: "https://dummyimage.com/300X300/a6a6a6/000000&text=placeHolderImg",
     title: "Project Title",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -20,7 +20,7 @@ const projectsInfo = [
     sourceCodeHref: "#",
   },
   {
-    src: "https://placeimg.com/300/300/tech",
+    src: "https://dummyimage.com/300X300/a6a6a6/000000&text=placeHolderImg",
     title: "Project Title",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
