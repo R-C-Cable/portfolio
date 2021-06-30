@@ -4,7 +4,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 const projectsInfo = [
   {
-    src: "https://dummyimage.com/300X300/a6a6a6/000000&text=placeHolderImg",
+    src: "https://dummyimage.com/600X600/a6a6a6/000000&text=placeHolderImg",
     title: "Project Title",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -12,7 +12,7 @@ const projectsInfo = [
     sourceCodeHref: "#",
   },
   {
-    src: "https://dummyimage.com/300X300/a6a6a6/000000&text=placeHolderImg",
+    src: "https://dummyimage.com/600X600/a6a6a6/000000&text=placeHolderImg",
     title: "Project Title",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -20,7 +20,7 @@ const projectsInfo = [
     sourceCodeHref: "#",
   },
   {
-    src: "https://dummyimage.com/300X300/a6a6a6/000000&text=placeHolderImg",
+    src: "https://dummyimage.com/600X600/a6a6a6/000000&text=placeHolderImg",
     title: "Project Title",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -32,7 +32,7 @@ const projectsInfo = [
 function ProjectCard(props) {
   return (
     <Col sm>
-    <Card style={{ width: "95%", margin: "auto" }}>
+    <Card  id="ProjectCard" style={{ width: "95%", margin: "auto" }}>
       <Card.Img variant="top" src={props.src} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
