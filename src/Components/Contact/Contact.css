@@ -1,17 +1,13 @@
-/*# sourceMappingURL=Contact.css.map */
-
-#Contact{
-    background-image:
-    linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%),
-    url(./imageOfComputer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+#Contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(./imageOfComputer.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(./imageOfComputer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#contactForm{
-  width: 50%;
-  max-width: 600px;
-  min-width: 300px;
+#contactForm {
+  max-width: 70%;
   margin: auto;
   margin-bottom: 50px;
 }
+/*# sourceMappingURL=Contact.css.map */

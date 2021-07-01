@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./ProjectSection.css"
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 const projectsInfo = [
@@ -31,8 +32,8 @@ const projectsInfo = [
 
 function ProjectCard(props) {
   return (
-    <Col sm>
-    <Card  id="ProjectCard" style={{ width: "95%", margin: "auto" }}>
+    <Col sm >
+    <Card id="ProjectCard"  style={{ width: "95%", margin: "auto" }}>
       <Card.Img variant="top" src={props.src} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
@@ -57,7 +58,7 @@ function ProjectSection() {
     <Container id="ProjectSection">
       <h1 className="mb-4">Projects</h1>
       <Row>
-        {projectsInfo.slice(0,3).map((projects) => {
+        {projectsInfo.map((projects) => {
           return <ProjectCard {...projects}/>;
         })}
       </Row>
