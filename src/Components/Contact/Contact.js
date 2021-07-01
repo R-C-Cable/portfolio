@@ -29,7 +29,7 @@ function Contact() {
     <Container id="Contact" fluid className="text-light">
       <h1 className="m-4 ">Contact Me</h1>
 
-
+      <Container id="formContainer">
       <Form id="contactForm" onSubmit={sendEmail}>
         <Form.Group >
           <Form.Label>Name:</Form.Label>
@@ -49,6 +49,7 @@ function Contact() {
         <Form.Group>
           <Form.Label>Message:</Form.Label>
           <Form.Control
+            id ="messageArea"
             as="textarea"
             placeholder="Type Message Here"
             name="message"
@@ -60,6 +61,7 @@ function Contact() {
           Send Message
         </Button>
       </Form>
+      </Container>
     </Container>
   );
 }

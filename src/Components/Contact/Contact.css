@@ -5,9 +5,16 @@
   background-size: cover;
 }
 
-#contactForm {
-  max-width: 70%;
-  margin: auto;
+#formContainer {
   margin-bottom: 50px;
+}
+
+#formContainer #contactForm {
+  max-width: 80%;
+  margin: auto;
+}
+
+#messageArea {
+  min-height: 20vh;
 }
 /*# sourceMappingURL=Contact.css.map */

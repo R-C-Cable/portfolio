@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <Container fluid className="Footer d-block bg-dark">
       <Row className="d-grid gap-3 text-center">
-        <Col sm className="mt-4">
+        <Col sm className="m-3">
           <Button
           href="#top"
           variant="outline-light"
