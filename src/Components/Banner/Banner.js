@@ -22,8 +22,9 @@ function Banner() {
       <Container>
       <div style={{position: 'relative', top: '%50'}}>
         <h1 >Robert Cable</h1>
-        <p class="lead">Web Development Intern | Computer Science Student</p>
-        <hr class="my-4"></hr>
+        <h5>Web Development Intern</h5>
+        <h5>& Computer Science Student</h5>
+        <hr className="my-4"></hr>
         </div>
       </Container>
     </Jumbotron>
