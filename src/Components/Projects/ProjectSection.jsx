@@ -91,15 +91,15 @@ function ProjectCard(props) {
 function ProjectSection() {
   return (
     <Container id="ProjectSection">
-      <h1 className="mb-4">Web Development Projects</h1>
+      <h1 className="mb-4">Java Projects</h1>
       <Row>
-        {frontEndProjects.map((projects) => {
+        {javaProjects.map((projects) => {
           return <ProjectCard {...projects} />;
         })}
       </Row>
-      <h1 className="m-4">Java Projects</h1>
+      <h1 className="m-4">Web Development Projects</h1>
       <Row>
-        {javaProjects.map((projects) => {
+        {frontEndProjects.map((projects) => {
           return <ProjectCard {...projects} />;
         })}
       </Row>

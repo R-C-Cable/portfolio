@@ -22,7 +22,7 @@ function Banner() {
       <Container>
       <div style={{position: 'relative', top: '%50'}}>
         <h1 >Robert Cable</h1>
-        <p class="lead">Software Engineer</p>
+        <p class="lead">Web Development Intern | Computer Science Student</p>
         <hr class="my-4"></hr>
         </div>
       </Container>
