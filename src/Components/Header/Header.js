@@ -30,7 +30,7 @@ function Header() {
  
               <Button
                 className="mr-1"
-                href="https://www.linkedin.com/in/robert-cable-b88593ab/"
+                href="https://www.linkedin.com/in/robert-cable/"
                 target="_blank"
                 variant="outline-light"
                 size="lg"

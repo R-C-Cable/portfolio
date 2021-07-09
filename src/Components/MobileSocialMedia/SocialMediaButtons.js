@@ -8,7 +8,7 @@ function SocialMediaButtons() {
       <div className="container-fluid text-center">
         <Button
           className="mr-1 mb-1"
-          href="https://www.linkedin.com/in/robert-cable-b88593ab/"
+          href="https://www.linkedin.com/in/robert-cable/"
           target="_blank"
           variant="primary"
           size="lg"
