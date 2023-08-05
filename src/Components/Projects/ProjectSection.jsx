@@ -123,7 +123,7 @@ function ProjectSection() {
           return <ProjectCard {...projects} />;
         })}
       </Row>
-      <h1 className="mb-4">Old Java Projects</h1>
+      <h1 className="m-4">Old Java Projects</h1>
       <Row>
         {javaProjects.map((projects) => {
           return <ProjectCard {...projects} />;
