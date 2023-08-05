@@ -35,8 +35,8 @@ const androidProjects = [
     src: "https://user-images.githubusercontent.com/77639928/258609420-31512e6d-a8b1-4453-86c7-b746fb0456d5.png",
     title: "Denver Volunteer Connect",
     description:
-      "",
-    sourceCodeHref: "https://user-images.githubusercontent.com/77639928/258609353-89722da8-fb5d-454c-b436-f46059998f19.png",
+      "Native Android App that allows older adults that are seeking chore services to request help from volunteers, and for the volunteers to accept these requests. \n Written in Java, using MVVM architecture, Firebase for Google Auth and as a Database.",
+    sourceCodeHref: "https://github.com/R-C-Cable/DenverVolunteerConnect",
   },
   {
     src: "https://dummyimage.com/600X600/a6a6a6/000000&text=placeHolderImg",
