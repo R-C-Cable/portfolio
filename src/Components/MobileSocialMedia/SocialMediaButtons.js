@@ -27,16 +27,6 @@ function SocialMediaButtons() {
           <FaGithub className="mb-1 mr-1" />
           Github
         </Button>
-
-        <Button
-          className="mb-1"
-          href="https://docs.google.com/document/d/1_P4iHDlcTu-3f_J1RZXYPlrhH0aa-oPUkNJ56txjQxU/edit?usp=sharing"
-          target="_blank"
-          variant="primary"
-          size="lg"
-        >
-          CV/Resume
-        </Button>
       </div>
     </div>
   );

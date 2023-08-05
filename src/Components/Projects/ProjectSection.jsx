@@ -30,6 +30,32 @@ const frontEndProjects = [
   },
 ];
 
+const androidProjects = [
+  {
+    src: "https://user-images.githubusercontent.com/77639928/258609420-31512e6d-a8b1-4453-86c7-b746fb0456d5.png",
+    title: "Denver Volunteer Connect",
+    description:
+      "",
+    sourceCodeHref: "https://user-images.githubusercontent.com/77639928/258609353-89722da8-fb5d-454c-b436-f46059998f19.png",
+  },
+  {
+    src: "https://dummyimage.com/600X600/a6a6a6/000000&text=placeHolderImg",
+    title: "Project Title",
+    description:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    deployHref: "#",
+    sourceCodeHref: "#",
+  },
+  {
+    src: "https://dummyimage.com/600X600/a6a6a6/000000&text=placeHolderImg",
+    title: "Project Title",
+    description:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    deployHref: "#",
+    sourceCodeHref: "#",
+  },
+];
+
 const javaProjects = [
   {
     src: "https://user-images.githubusercontent.com/77639928/125139993-ce106d80-e0ce-11eb-84e4-c28ba9ad48e1.png",
@@ -91,15 +117,15 @@ function ProjectCard(props) {
 function ProjectSection() {
   return (
     <Container id="ProjectSection">
-      <h1 className="mb-4">Java Projects</h1>
+            <h1 className="mb-4">Android Projects</h1>
       <Row>
-        {javaProjects.map((projects) => {
+        {androidProjects.map((projects) => {
           return <ProjectCard {...projects} />;
         })}
       </Row>
-      <h1 className="m-4">Web Development Projects</h1>
+      <h1 className="mb-4">Old Java Projects</h1>
       <Row>
-        {frontEndProjects.map((projects) => {
+        {javaProjects.map((projects) => {
           return <ProjectCard {...projects} />;
         })}
       </Row>

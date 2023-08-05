@@ -47,16 +47,6 @@ function Header() {
               >
                 <FaGithub/>
               </Button>
-
-              <Button
-                className="mr-1"
-                href="https://docs.google.com/document/d/1_P4iHDlcTu-3f_J1RZXYPlrhH0aa-oPUkNJ56txjQxU/edit?usp=sharing"
-                target="_blank"
-                variant="outline-light"
-                size="lg"
-              >
-                CV
-              </Button>
         </div>
 
       </Navbar.Collapse>

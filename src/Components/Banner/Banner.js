@@ -24,8 +24,8 @@ function Banner() {
       <Container>
         <div style={{ position: "relative", top: "%50" }}>
           <h1>Robert Cable</h1>
-          <h5>Web Development Intern</h5>
-          <h5>& Computer Science Student</h5>
+          <h5>Software Engineer</h5>
+          <h5>Android</h5>
           <hr className="my-4"></hr>
         </div>
       </Container>
